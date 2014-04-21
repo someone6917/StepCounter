@@ -13,4 +13,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+#import <CoreMotion/CoreMotion.h>
+
+#define kDictionaryDateKey @"date"
+#define kDictionaryStepsKey @"steps"
 #endif

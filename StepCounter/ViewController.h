@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MotionManager.h"
 
 @interface ViewController : UIViewController
+<
+UITableViewDataSource, UITableViewDelegate,
+MotionManagerDelegate
+>
 
 @end

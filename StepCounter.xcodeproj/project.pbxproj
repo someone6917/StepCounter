@@ -21,6 +21,7 @@
 		F314A45819053C9C005E1EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F314A43A19053C9C005E1EDA /* UIKit.framework */; };
 		F314A46019053C9C005E1EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F314A45E19053C9C005E1EDA /* InfoPlist.strings */; };
 		F314A46219053C9C005E1EDA /* StepCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F314A46119053C9C005E1EDA /* StepCounterTests.m */; };
+		F314A46D19053E15005E1EDA /* MotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F314A46C19053E15005E1EDA /* MotionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F314A45D19053C9C005E1EDA /* StepCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepCounterTests-Info.plist"; sourceTree = "<group>"; };
 		F314A45F19053C9C005E1EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F314A46119053C9C005E1EDA /* StepCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepCounterTests.m; sourceTree = "<group>"; };
+		F314A46B19053E15005E1EDA /* MotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionManager.h; sourceTree = "<group>"; };
+		F314A46C19053E15005E1EDA /* MotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F314A44519053C9C005E1EDA /* AppDelegate.h */,
 				F314A44619053C9C005E1EDA /* AppDelegate.m */,
 				F314A44819053C9C005E1EDA /* Main.storyboard */,
+				F314A46B19053E15005E1EDA /* MotionManager.h */,
+				F314A46C19053E15005E1EDA /* MotionManager.m */,
 				F314A44B19053C9C005E1EDA /* ViewController.h */,
 				F314A44C19053C9C005E1EDA /* ViewController.m */,
 				F314A44E19053C9C005E1EDA /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				F314A44D19053C9C005E1EDA /* ViewController.m in Sources */,
 				F314A44719053C9C005E1EDA /* AppDelegate.m in Sources */,
 				F314A44319053C9C005E1EDA /* main.m in Sources */,
+				F314A46D19053E15005E1EDA /* MotionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
